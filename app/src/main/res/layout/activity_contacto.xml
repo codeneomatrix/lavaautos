@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.neomatrix.lavaautos.contacto">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="54dp"
+        android:layout_height="64dp"
+        app:srcCompat="@drawable/face"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        android:layout_marginTop="28dp"
+        app:layout_constraintHorizontal_bias="0.489" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="54dp"
+        android:layout_height="44dp"
+        app:srcCompat="@drawable/corr"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView8"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="1.0"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.489" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="53dp"
+        android:layout_height="45dp"
+        app:srcCompat="@drawable/tel"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView9"
+        app:layout_constraintTop_toBottomOf="@+id/imageView7"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.48" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="59dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/home"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView8"
+        app:layout_constraintRight_toLeftOf="@+id/textView16"
+        app:layout_constraintHorizontal_bias="0.545" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="62dp"
+        android:layout_height="46dp"
+        app:srcCompat="@drawable/reloj"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView9"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintRight_toLeftOf="@+id/textView16" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="INICIO"
+        tools:layout_editor_absoluteX="201dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="\n\nLava Autos Reforma\n\n\n\n lavaautosreforma@gmail.com\n\n\n\n 9512071343\n5020548 \n\n\n Emilio zapata 1104\nCol. Reforma, Oaxaca de Juarez\n\n\n 8:00 AM - 17:00 PM"
+        app:layout_constraintBottom_toTopOf="@+id/button6"
+        app:layout_constraintHorizontal_bias="0.652"
+        app:layout_constraintLeft_toRightOf="@+id/imageView10"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4" />
+</android.support.constraint.ConstraintLayout>
